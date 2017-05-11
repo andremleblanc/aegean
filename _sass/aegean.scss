@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#about-us-section {
+  /*background-image: url(/img/supernatural-healing-002 .jpg);*/
+  padding: 50px 0;
+}
+
+.page-content {
+  margin-top: 45px;
+}
+
+.cover {
+  background-attachment: fixed;
+  background-image: url(/img/supernatural-healing-001.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: -70px;
+  position: relative;
+  top: -70px;
+}
+
+.cover h1 {
+  margin: 200px 0 0;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+
+.cover img {
+  position: absolute;
+  width: 100%;
+}
+
+.cover subtitle {
+  display: block;
+  position: relative;
+  z-index: 100;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.1em;
+  font-family: "open-sans";
+}
