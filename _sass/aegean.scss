@@ -1,4 +1,16 @@
 @charset "utf-8";
+@import "custom.scss";
+
+footer {
+  background-color: #333;
+  color: white;
+  margin: 0;
+
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 
 #about-us-section {
   /*background-image: url(/img/supernatural-healing-002 .jpg);*/
@@ -7,11 +19,12 @@
 
 .page-content {
   margin-top: 45px;
+  position: relative;
 }
 
 .cover {
   background-attachment: fixed;
-  background-image: url(/img/supernatural-healing-001.jpg);
+  background-image: url(/assets/img/supernatural-healing-001.jpg);
   background-position: 50% 30%;
   background-size: cover;
   height: 600px;
